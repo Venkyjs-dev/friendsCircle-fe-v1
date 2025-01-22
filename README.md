@@ -1,5 +1,7 @@
 # friendsCircle-fe-v1
 
+### unit 1:
+
 - Create vite + react applicaton
 - Remove unnessary code and create Hello world app.
 - Install tailwind css
@@ -13,6 +15,13 @@
 - Create Outlet in your body component
 - Create footer.
 
+### unit 2:
+
+- install axios
+- solve cors problem:
+  - install cors in backend ==> add this cors middleware to app with configuration: origin, credientials: true
+  - in front-end, while making api call using axios, pass withcredentials:true in axios api calls
+
 #### Body
 
     NavBar
@@ -21,3 +30,11 @@
     Route = /signup ==> SignUp
     Route = /connections => Connections
     Route = /profile => Profile
+
+### unit 3
+
+- Intall react-redux and redux toolkit
+- configureStroe => Provider store to app => createSlice => add reducers to store
+- Check login user data is updated in the store, using redux dev tools
+- Navbar should update as soon as user login
+- Add conctansta file + create component folder
