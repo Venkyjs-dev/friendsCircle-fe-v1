@@ -38,3 +38,8 @@
 - Check login user data is updated in the store, using redux dev tools
 - Navbar should update as soon as user login
 - Add conctansta file + create component folder
+
+### unit 4
+
+- You should not be access other routes without login
+- If token is not present redirect user to login page
