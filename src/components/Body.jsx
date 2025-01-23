@@ -18,7 +18,6 @@ const Body = () => {
         withCredentials: true,
       });
       // if (!res.data) throw new Error("Invalid data");
-      console.log(res.data.data);
       dispatch(addUser(res.data.data));
     } catch (error) {
       navigate("/login");

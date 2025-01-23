@@ -8,6 +8,7 @@ import { useNavigate } from "react-router";
 const Login = () => {
   const [emailId, setEmailId] = useState("Selva@gmail.com");
   const [password, setPassword] = useState("Selva@1234");
+  const [error, setError] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -24,7 +25,7 @@ const Login = () => {
       dispatch(addUser(res.data.data));
       navigate("/");
     } catch (e) {
-      console.error(e.message);
+      setError(e?.response?.data?.message);
     }
   };
   return (
@@ -58,6 +59,7 @@ const Login = () => {
               />
             </label>
           </div>
+          <p className="text-red-500 text-center">{error}</p>
           <div className="card-actions justify-center my-2">
             <button className="btn btn-primary" onClick={handleLogin}>
               Login
