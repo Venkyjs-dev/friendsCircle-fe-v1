@@ -21,7 +21,7 @@ const Body = () => {
       dispatch(addUser(res.data.data));
     } catch (error) {
       navigate("/login");
-      console.log(error);
+      console.error(error);
     }
   };
 

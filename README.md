@@ -44,3 +44,5 @@
 - You should not be access other routes without login
 - If token is not present redirect user to login page
 - Build logout feature
+- Get the feed and add feed into store
+- build a single user card on feed page
