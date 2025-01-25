@@ -5,7 +5,7 @@ import { BASE_URL } from "../utils/constants";
 import { addUser } from "../appStore/userSlice";
 
 const EditProfile = () => {
-  const { user } = useSelector((state) => state.user);
+  const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
 
   const [firstName, setFirstName] = useState(user?.firstName || "");

@@ -6,8 +6,8 @@ import { BASE_URL } from "../utils/constants";
 import { useNavigate } from "react-router";
 
 const Login = () => {
-  const [emailId, setEmailId] = useState("Selva@gmail.com");
-  const [password, setPassword] = useState("Selva@1234");
+  const [emailId, setEmailId] = useState("devayani@gmail.com");
+  const [password, setPassword] = useState("Devayani@1234");
   const [error, setError] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -36,7 +36,7 @@ const Login = () => {
           <div>
             <label className="form-control w-full max-w-xs">
               <div className="label">
-                <span className="label-text">Email ID: {emailId}</span>
+                <span className="label-text">Email ID</span>
               </div>
               <input
                 type="text"
@@ -49,7 +49,7 @@ const Login = () => {
           <div>
             <label className="form-control w-full max-w-xs">
               <div className="label">
-                <span className="label-text">Password: {password}</span>
+                <span className="label-text">Password</span>
               </div>
               <input
                 type="text"

@@ -6,7 +6,7 @@ import { BASE_URL } from "../utils/constants";
 import { removeUser } from "../appStore/userSlice";
 
 const NavBar = () => {
-  const { user } = useSelector((state) => state.user);
+  const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const handleLogout = async () => {
@@ -47,7 +47,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/settings">Settings</Link>
+                <Link to="/connections">Connections</Link>
               </li>
               <li>
                 <a onClick={handleLogout}>Logout</a>

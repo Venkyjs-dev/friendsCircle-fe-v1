@@ -46,10 +46,17 @@
 - Build logout feature
 - Get the feed and add feed into store
 - build a single user card on feed page
-- create profile edit page --> pending task
+- create profile edit page
   - edit profile form with default input values of user
   - show preview | user card and edit form side by side
   - on click of save profile, make edit profile api call and update the user in the store
-  - if api call is success show, a toast message for 3 seconds
+  - if api call is success show, a toast message for 3 seconds --> pending
 
-completed video 17 and peding task of profile page
+### unit 5
+
+- create a connections page
+- create a connection requests page --> pending
+- Feature - accept/reject connections request --> pedning
+
+Pending tasks:
+if edit profile api call is success show, a toast message for 3 seconds
