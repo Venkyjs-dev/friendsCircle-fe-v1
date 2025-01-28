@@ -55,8 +55,18 @@
 ### unit 5
 
 - create a connections page
-- create a connection requests page --> pending
+- create a connection requests page
 - Feature - accept/reject connections request --> pedning
+
+### unit 6
+
+Ignored
+Pending
+
+- Feature - interest/iggnoed conenction
+- Signup new user (make changes in sign up api also, set cookies and send saved user data as response)
+- E2E Testing
 
 Pending tasks:
 if edit profile api call is success show, a toast message for 3 seconds
+bug in accept and reject connection, after accepting requeset, it was not removed from the page.
